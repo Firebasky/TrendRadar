@@ -1,0 +1,106 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 255</p><p>生成时间: 2025-08-20 17:11:15</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">国产 中国</td>
+                <td class="count">7</td>
+                <td class="percentage">2.75%</td>
+                <td class="titles">[凤凰网] <a href="https://news.ifeng.com/c/8ly86tPWzCp" target="_blank" class="news-link">“中国威胁美国农民”？美媒评论区大翻车</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 17时11分</font><br>[凤凰网] <a href="https://news.ifeng.com/c/8lxzUAQZ2vc" target="_blank" class="news-link">中国已下单5万吨？加拿大慌了</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 17时11分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2120310" target="_blank" class="news-link">独家|资源协同+资本运作 中国一汽拟入股零跑10%、成为战略股东</a> [7] <font color='grey'>- 17时11分</font><br>[今日头条] <a href="https://www.toutiao.com/trending/7539672860164521994/" target="_blank" class="news-link">中国人民抗日战争歼灭日军150多万人</a> [14] <font color='grey'>- 17时11分</font><br>[澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31430537" target="_blank" class="news-link">释永信被查，中国佛教协会：没有法外之人，勿越法律“红线”</a> [16] <font color='grey'>- 17时11分</font><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7540214390143025162/" target="_blank" class="news-link">中国女篮将在西安对阵尤文图特女篮</a> [20] <font color='grey'>- 17时11分</font></div><br>[今日头条] <a href="https://www.toutiao.com/trending/7540520070854741530/" target="_blank" class="news-link">中国7艘滚装船南下 美军为何紧张</a> [22] <font color='grey'>- 17时11分</font></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">2</td>
+                <td class="percentage">0.78%</td>
+                <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3753683" target="_blank" class="news-link">久违的美国科技股大跌，AI和数字币领跌，发生了什么？</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 17时11分</font><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2120393" target="_blank" class="news-link">英伟达等AI股昨夜缘何大跌？这篇麻省理工报告成为一大“元凶”！</a> [11] <font color='grey'>- 17时11分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">DeepSeek</td>
+                <td class="count">1</td>
+                <td class="percentage">0.39%</td>
+                <td class="titles">[微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3Ddeepseek%E6%BC%94%E9%83%BD%E4%B8%8D%E6%BC%94%E4%BA%86&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26pos%3D0%26flag%3D2%26c_type%3D31%26lcate%3D5001%26dgr%3D0%26realpos%3D1%26cate%3D5001%26filter_type%3Drealtimehot%26q%3Ddeepseek%25E6%25BC%2594%25E9%2583%25BD%25E4%25B8%258D%25E6%25BC%2594%25E4%25BA%2586%26band_rank%3D1%26stream_entry_id%3D31%26display_time%3D1755680988%26pre_seqid%3D1755680988602055867736" target="_blank" class="news-link">deepseek演都不演了</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 17时11分</font></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">科技</td>
+                <td class="count">1</td>
+                <td class="percentage">0.39%</td>
+                <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3753613" target="_blank" class="news-link">科技股冲击美股，英伟达跌3.5%，道指盘中新高，加密货币跳水，俄乌会晤筹备，金油齐跌</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 17时11分</font></td>
+            </tr>
+        
+        </table>
+    
+        <div class="new-section">
+            <h3>🆕 本次新增热点新闻 (共 2 条)</h3>
+        <h4>今日头条 (1 条)</h4><ul><li><a href="https://www.toutiao.com/trending/7540214390143025162/" target="_blank" class="news-link">中国女篮将在西安对阵尤文图特女篮</a> [20]</li></ul><h4>财联社热门 (1 条)</h4><ul><li><a href="https://www.cls.cn/detail/2120393" target="_blank" class="news-link">英伟达等AI股昨夜缘何大跌？这篇麻省理工报告成为一大“元凶”！</a> [11]</li></ul></div>
+    </body>
+    </html>
+    
